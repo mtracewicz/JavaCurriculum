@@ -1,0 +1,91 @@
+pwd 
+exit 
+history 
+exit 
+cd src
+cat Ls.java
+exit 
+cat /etc/machine-id
+exit 
+ls 
+ls -la
+ls /etc
+history 
+exit 
+ls 
+exit 
+ls 
+exit 
+ls 
+exit 
+ls 
+ls -la
+exit 
+ls -la
+exit 
+ls -la
+ls -r
+ls -a
+ls -l
+exit 
+cd src
+ls 
+ls -a
+ls -l
+ls -r
+exit 
+ls 
+exit 
+ls -l
+exit 
+ls -r
+exit 
+ls -l
+exit 
+ls -l
+exit 
+ls -l
+exit 
+ls -l
+exit 
+ls -l
+exit 
+ls -lh
+exit 
+ls -lh
+exit 
+ls -lRha
+exit 
+ls -lRha
+exit 
+ls -lR
+exit 
+ls -lR
+ls 
+exit 
+ls -lR
+ls 
+ls /etc -lR
+exit 
+ls -lR src
+clear 
+exit 
+ls -l src
+ls -l
+exit 
+ls -l
+exit 
+ls -l src
+ls -l
+exit 
+ls 
+ls -l
+ls -l src
+ls src
+exit 
+ls -l
+exit 
+ls -l
+cd src
+ls -l
+exit 
