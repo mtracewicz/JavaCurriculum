@@ -1,0 +1,17 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+<persistence-unit name="pl.umk.mat.mtracewicz">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <properties>
+        <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
+        <property name="hibernate.hbm2ddl.auto" value="validate"/>
+        <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+        <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:ora2018"/>
+        <property name="javax.persistence.jdbc.user" value="g8_mtracewicz"/>
+        <property name="javax.persistence.jdbc.password" value="MichalTw98!"/>
+    </properties>
+</persistence-unit>
+</persistence>
