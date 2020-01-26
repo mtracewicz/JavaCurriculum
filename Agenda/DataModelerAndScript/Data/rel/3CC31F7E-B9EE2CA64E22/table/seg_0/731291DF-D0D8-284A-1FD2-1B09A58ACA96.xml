@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="731291DF-D0D8-284A-1FD2-1B09A58ACA96" name="Items">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>5CB9C913-87F0-6502-06F3-6685DA1BCC7E</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5E07D704-6145-FA94-46EB-AD531D4FF158">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>29603E19-B1DF-4F63-E716-6707E360CE1A</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="58ACC0E4-0D74-B913-1A68-87079DB209AC">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>A29A41B2-0D2B-1E18-A7E7-5A1C23EE091A</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="121957C6-CFE2-F82F-6F5D-A412174609EF">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>2534FD09-A7D1-B953-3ACB-E64ECB0069AA</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="AA3F8A90-B62A-2A62-1650-C0F72598F6F1">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>D11FB55B-0E59-6AD5-AC9F-909F63CBB910</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_Email" id="8078EC70-707B-FCF3-C8C9-4AFA74B59151">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>F940D0AA-D94B-D9EC-F238-F80CF56A02B8</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D13A7E33-43A2-290D-2000-FDD076144AFF" referredColumn="414F7FD4-CBDA-8375-7E03-C2B0CA542BBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C411031-6E2E-FD9B-7077-F400500C03B7" name="Items_PK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>0D75326E-278E-C53A-A78D-38E111BFDB1E</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E07D704-6145-FA94-46EB-AD531D4FF158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B3D6D60-3624-521C-67CC-3B17C80A72A0" name="Items_Users_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>0D3CAE79-442B-8588-13DB-287EBF8674B7</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8078EC70-707B-FCF3-C8C9-4AFA74B59151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

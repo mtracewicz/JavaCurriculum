@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86381619-EB9C-D6F0-C165-80CDD32E1861" name="Users">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:33:57 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Email" id="72B5AA24-F75E-59CC-B580-E1F80A4063EF">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:34:07 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="0362791C-FC42-D4AB-DDE5-9B7C8A3D04AB">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:34:10 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAA2B1EB-2D7C-A9E7-1EAC-E63F06AEF126" name="Users PK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:36:10 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72B5AA24-F75E-59CC-B580-E1F80A4063EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

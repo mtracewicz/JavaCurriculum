@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9549D80-8371-27BD-B98E-02F49DF991EB" name="Todo">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:42:23 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Todo" id="04249094-EDF7-3FFD-5B1F-F84F15595E7B">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-08 08:32:34 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="CA7C9B1F-546F-5EC6-CB0D-84B83C79C2E0">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:42:29 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Deadline" id="C5A3E431-CA85-27E8-8292-EBFA8F6B2B81">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:42:30 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="95BDE997-9796-D8A2-4A90-EF29D6030076">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:42:31 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Priority" id="4138E81E-CBDD-C956-D72B-EA16DEB349D5">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:42:31 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="E9AD2CD6-3335-8544-67D2-D1E3A5F4FB40">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:57:39 UTC</createdTime>
+<generatorID>825D24B8-B586-F25E-FE0A-8E501B34E85B</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>29603E19-B1DF-4F63-E716-6707E360CE1A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3DA08926-6205-32D7-2E61-400D19BC8CDF" name="Todo PK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-08 08:32:51 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

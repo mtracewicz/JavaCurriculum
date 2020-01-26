@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E94E8F8-C5CD-D21E-DC48-8D9B088C2241" name="Events">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:39:10 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Event" id="B27AD204-ADDF-8ED2-80E7-C4FFB21B839C">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-08 08:31:25 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="8B816A62-938C-3EDB-C439-764EEA2CBB41">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:39:18 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start" id="657D0841-E49E-E787-A93F-4A6C43B7EFD3">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:39:19 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End" id="BF657512-06E5-F63E-AFED-F580DE3A5389">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:39:19 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Localization" id="B2FA81EF-C53F-0E5B-6774-4E510B2104AA">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:39:23 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="4D87ABF0-E179-DBFD-438A-B726A30A5F31">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:39:24 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Note" id="7F234F91-37CC-6C4D-2A04-2F50D66A1C68">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-08 08:35:55 UTC</createdTime>
+<generatorID>4D674EEB-A712-C4D6-B721-D4B54915FED9</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>87A4C100-CCEF-26A1-E2F7-F7650D987CB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="7B91B2D0-6559-4B79-4302-27572BD04666">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:57:39 UTC</createdTime>
+<generatorID>BE11A806-660A-B8C5-ABDE-D66B31D8A55D</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>29603E19-B1DF-4F63-E716-6707E360CE1A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D65E5FAD-0F0C-47F0-AA80-ACCC8B2BEF4A" name="Events PK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-08 08:31:31 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

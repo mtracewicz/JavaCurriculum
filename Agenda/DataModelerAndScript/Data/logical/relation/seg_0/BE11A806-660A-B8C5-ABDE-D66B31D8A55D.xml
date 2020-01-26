@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Calendars" directorySegmentName="seg_0" id="BE11A806-660A-B8C5-ABDE-D66B31D8A55D">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-05-30 18:44:36 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<engineerTo>
+<item key="1DC8FAE6-B6D3-63B2-E9F9-28BD29C96498" value="true"/>
+</engineerTo>
+<sourcePk>0D75326E-278E-C53A-A78D-38E111BFDB1E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5CB9C913-87F0-6502-06F3-6685DA1BCC7E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E94E8F8-C5CD-D21E-DC48-8D9B088C2241</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

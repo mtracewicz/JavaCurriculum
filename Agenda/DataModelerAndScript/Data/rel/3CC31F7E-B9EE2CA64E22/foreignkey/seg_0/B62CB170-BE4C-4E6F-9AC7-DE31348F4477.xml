@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B62CB170-BE4C-4E6F-9AC7-DE31348F4477" containerWithKeyObject="2CE1EC7F-44D2-CC9D-920F-44692C576B78" localFKIndex="C59DE424-6EEF-D0C2-1F22-3904FA4472D7" name="Todo_Notes_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>627B9103-B5FF-380A-631D-A673B73F5025</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<referredTableLongName>Notes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3C89C95-8B35-411A-67A5-5A4F16CBA4A3</referredTableID>
+<keyObject>360C3875-E6BB-6865-B6C8-207FE09031CB</keyObject>
+<referredKeyID>360C3875-E6BB-6865-B6C8-207FE09031CB</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

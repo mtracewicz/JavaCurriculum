@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3C89C95-8B35-411A-67A5-5A4F16CBA4A3" name="Notes">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>D0A0F641-383D-5314-DCB4-CDE4B1E8BF56</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Note" id="A9F5B742-59C2-ED35-1AFF-E45D38D32816">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>87A4C100-CCEF-26A1-E2F7-F7650D987CB9</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="0C4AAFD9-0D63-3023-A81E-DC0E891A2ED6">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>DDC57AD6-88FF-F7A8-2771-B7D532666C01</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text" id="9248C42A-31B2-1851-FD73-7A70C0467FBC">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>FCF1BC30-A78A-4DDF-7AFC-DAD4D3759AEE</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Color" id="5A7AFF63-9218-7C1B-F8D3-2CC77EC20AAB">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>2713C435-B655-5ED5-E2FC-DB29B067B515</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Event" id="1419EF2D-0614-6DB9-4B2C-57AD03EC5F7C">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>04D70A7F-3B44-383B-5E22-EF1E89F0C0F6</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Items_ID" id="9EFE701C-AE88-B395-0896-A8D6024D2C63">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>32E139A1-8EC9-6918-5365-6F57043B6845</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB369DD4-E1E9-4AD9-68FF-1CE44DA69821" referredColumn="5E07D704-6145-FA94-46EB-AD531D4FF158"/>
+</associations>
+</Column>
+<Column name="Events_ID_Event" id="0BE48415-0F74-8C7E-3D6A-9212D10DC8E8">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 23:00:11 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4035FB3F-1A4D-21B7-63A2-CA00B4EB08D4" referredColumn="B1E2550D-BAF3-3C5A-59D3-C084716E8583"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="360C3875-E6BB-6865-B6C8-207FE09031CB" name="Notes_PK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>D6AFA1E1-4460-C337-3AA1-1FCA02529D6D</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9F5B742-59C2-ED35-1AFF-E45D38D32816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C39A2E8-1922-3117-36F3-193F040C848F" name="Notes_Events_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>4D674EEB-A712-C4D6-B721-D4B54915FED9</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BE48415-0F74-8C7E-3D6A-9212D10DC8E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBAA53DE-50FC-721E-6366-92AE573C6710" name="Notes_Items_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>0E911E76-347A-383D-28BE-0BFFBC18FDA5</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EFE701C-AE88-B395-0896-A8D6024D2C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

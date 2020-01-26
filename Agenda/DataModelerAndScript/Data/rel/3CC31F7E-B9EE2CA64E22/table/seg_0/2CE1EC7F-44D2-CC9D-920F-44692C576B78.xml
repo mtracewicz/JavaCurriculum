@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CE1EC7F-44D2-CC9D-920F-44692C576B78" name="Todo">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>C9549D80-8371-27BD-B98E-02F49DF991EB</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Todo" id="69A27948-BD93-73C6-65C3-F262ABDDDAB0">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>04249094-EDF7-3FFD-5B1F-F84F15595E7B</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="CC2CBFAE-0C5F-D9AE-9735-A8DAD03A0C93">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>CA7C9B1F-546F-5EC6-CB0D-84B83C79C2E0</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deadline" id="CC73DB29-FD74-E623-EFB6-3F830D6FCD52">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>C5A3E431-CA85-27E8-8292-EBFA8F6B2B81</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="3C6A0367-B4BA-11CF-70B5-F9A6ED5610DB">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>95BDE997-9796-D8A2-4A90-EF29D6030076</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Priority" id="C4EB690A-65A9-BD64-33EF-23B2669CB91A">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>4138E81E-CBDD-C956-D72B-EA16DEB349D5</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Items_ID" id="96AEEFD7-5EA6-3A8A-CC66-38403746D801">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>E9AD2CD6-3335-8544-67D2-D1E3A5F4FB40</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69EB05D8-5C5D-DC39-6F00-D311A3BF46EB" referredColumn="5E07D704-6145-FA94-46EB-AD531D4FF158"/>
+</associations>
+</Column>
+<Column name="Events_ID_Event" id="6668EA7B-430C-91B4-799E-FD3AF3F723CB">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 23:00:11 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6AD7E3F-1E3F-1B43-3860-E6E4798B4AAD" referredColumn="B1E2550D-BAF3-3C5A-59D3-C084716E8583"/>
+</associations>
+</Column>
+<Column name="Notes_ID_Note" id="3542197C-1B67-1094-97E9-D89830EBAE31">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 23:00:22 UTC</createdTime>
+<ownerDesignName>Data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B62CB170-BE4C-4E6F-9AC7-DE31348F4477" referredColumn="A9F5B742-59C2-ED35-1AFF-E45D38D32816"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9C7B512-2A7D-8DAD-1319-EC44B59D5760" name="Todo_PK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>3DA08926-6205-32D7-2E61-400D19BC8CDF</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69A27948-BD93-73C6-65C3-F262ABDDDAB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C59DE424-6EEF-D0C2-1F22-3904FA4472D7" name="Todo_Notes_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>627B9103-B5FF-380A-631D-A673B73F5025</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3542197C-1B67-1094-97E9-D89830EBAE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BA21465-7F0C-B27E-CB00-1008BD8D464F" name="Todo_Events_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>FF160A85-9468-1315-ED79-1E5A3C5215B3</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6668EA7B-430C-91B4-799E-FD3AF3F723CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A83E7FA-398A-D6DF-7B1B-69EA97E5CB94" name="Todo_Items_FK">
+<createdBy>mtracewicz</createdBy>
+<createdTime>2019-06-23 22:58:24 UTC</createdTime>
+<generatorID>825D24B8-B586-F25E-FE0A-8E501B34E85B</generatorID>
+<ownerDesignName>Data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96AEEFD7-5EA6-3A8A-CC66-38403746D801"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
